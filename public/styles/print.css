@@ -1,0 +1,8 @@
+/* 프린트(출력) 환경에서의 스타일 */
+
+@media print {
+  body {
+    background: #fff !important;
+    color: #000 !important;
+  }
+}
