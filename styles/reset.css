@@ -1,0 +1,13 @@
+/* 모든 브라우저의 기본 스타일 초기화 할 목적의 스타일 파일 */
+
+body {
+    margin: 0;
+  }
+  
+  img {
+    vertical-align: middle;
+  }
+  
+  [hidden] {
+    display: none !important;
+  }

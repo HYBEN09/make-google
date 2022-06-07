@@ -1,0 +1,32 @@
+/* 재사용 목적으로 정의 class */
+
+.blind,
+.sr-only,
+.screen-off,
+.a11y-hidden,
+.readable-hidden {
+  overflow: hidden;
+  position: absolute;
+  clip: rect(0, 0, 0, 0);
+  clip-path: circle(0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+}
+
+.reset-list {
+  list-style: none;
+  margin: 0;
+  padding-left: 0;
+}
+
+.reset-button {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background: transparent;
+  line-height: 1;
+}

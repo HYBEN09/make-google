@@ -1,0 +1,160 @@
+@import url("./reset.css");
+@import url("./reusable.css");
+@import url("./print.css");
+
+.headerbar {
+  height: 80px;
+}
+
+.services-profile {
+  display: flex;
+  justify-content: flex-end;
+  align-content: center;
+  height: 36px;
+  padding-top: 18px;
+  padding-right: 30px;
+  padding-left: 30px;
+}
+
+.services-list {
+  display: flex;
+  justify-content: flex-end;
+  align-content: center;
+}
+
+.services-list li {
+  margin-right: 18px;
+  display: flex;
+  align-items: center;
+}
+
+.services-list a {
+  text-decoration: none;
+  font-size: 13px;
+  color: #000;
+}
+
+.gmail:hover{
+text-decoration: underline;
+}
+
+.img:hover {
+ text-decoration: underline;
+}
+
+
+.button-profile {
+  border-radius: 50%;
+  margin-top: -1px;
+  padding: 8px;
+}
+
+.button-profile:hover {
+  background: #efefef;
+}
+
+.button-profile img {
+  width: 20px;
+  height: 20px;
+  border-radius: 18px;
+}
+
+.main-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.main-section .logo-wrap {
+  height: 150px;
+}
+
+.main-section .searchbar-wrap {
+  display: flex;
+  justify-content: space-evenly;
+  align-content: center;
+  width: 400px;
+  height: 50px;
+  border: solid 1px gray;
+  border-radius: 25px;
+  padding-right: 8px;
+  padding-left: 8px;
+}
+
+.main-section {
+  padding-top: 25px;
+  font-size: 12px;
+}
+
+.input {
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  border: solid 1px;
+  border-radius: 20px;
+  font-size: inherit;
+  color: rgb(194, 194, 201);
+  font-family: inherit;
+  outline: none;
+  padding-inline-end: 44px;
+  padding-inline-start: 52px;
+}
+
+
+.main-section .searchbar-wrap {
+  position: relative;
+  width: 400px;
+  height: 30px;
+  border: none;
+  font-size: 16px;
+  outline: none;
+
+}
+
+.fa-magnifying-glass {
+  bottom: 7px;
+  position: absolute;
+  left: 24px;
+  color: gray;
+}
+
+.fa-microphone {
+  position: absolute;
+  right: 20px;
+  top: 7px;
+  color: #3065af;
+}
+
+.tile-icon img {
+  width: 24px;
+  height: 24px;
+}
+
+.container {
+  width: 360px;
+  margin: 30px;
+  column-count: 3;
+}
+
+.icon {
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  margin: 16px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 60px;
+  background-color: rgb(212, 216, 219);
+}
+
+.title-title {
+  display: flex;
+  width: 88px;
+  height: 18px;
+  margin: 10px;
+  padding: 10px;
+  line-height: 18px;
+}
+
