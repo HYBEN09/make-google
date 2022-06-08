@@ -121,7 +121,8 @@ text-decoration: underline;
   bottom: 7px;
   position: absolute;
   left: 24px;
-  color: rgb(50 55 58);
+  color: rgb(107, 127, 138);
+  z-index: 10;
 }
 
 .fa-microphone {
